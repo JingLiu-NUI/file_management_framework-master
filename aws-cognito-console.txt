@@ -1,0 +1,21 @@
+Instructions for aws cognito:
+
+You will have to first sign up an admin in the main method using the signUpAdmin() method. An email containing a temporary password will be sent to whichever email you chose. From there you can then run the program normally and login as the admin using your email and temporary password. You will be asked to pick a new when login first so the account can be confirmed. The admin can create new teacher/admin accounts. The teacher can create new student accounts.
+
+
+Aws cognito console:
+
+Console sign in link - https://483245856044.signin.aws.amazon.com/console
+Username - cod3min3
+Password - cs4227
+
+Then go to this link(Cognito home):
+https://eu-west-1.console.aws.amazon.com/cognito/home?region=eu-west-1#
+
+Click Manage User Pools
+
+At the top right, make sure the region is EU(Ireland)
+
+Select the user pool named ‘testt’
+
+
